@@ -6,7 +6,7 @@ agent any
     stage('Build'){
       steps{
         script{
-          javabuild()
+          build()
         }
       }
     }
