@@ -10,6 +10,13 @@ agent any
         }
       }
     }
+    stage('Scan'){
+      steps{
+        script{
+          scan()
+        }
+      }
+    }
     stage('Deploy'){
        steps{
         script{
