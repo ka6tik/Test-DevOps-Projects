@@ -13,7 +13,7 @@ agent any
     stage('Deploy'){
        steps{
         script{
-          deployDemo()
+          deploy()
         }
       }
     }
