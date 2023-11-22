@@ -24,10 +24,10 @@ agent any
         }
       }
     }
-    stage('Log'){
+    stage('EvenorOdd'){
       steps{
         script{
-          log()
+          evenorodd()
         }
       }
     }
