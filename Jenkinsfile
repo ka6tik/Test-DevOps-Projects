@@ -24,12 +24,5 @@ agent any
         }
       }
     }
-    stage('EvenorOdd'){
-      steps{
-        script{
-          evenorodd()
-        }
-      }
-    }
   }
 }
