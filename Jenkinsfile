@@ -24,10 +24,10 @@ agent any
         }
       }
     }
-    stage('String'){
+    stage('Final'){
        steps{
         script{
-          string-example()
+          finalcheck()
         }
       }
     }
