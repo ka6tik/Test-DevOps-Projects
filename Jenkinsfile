@@ -24,10 +24,10 @@ agent any
         }
       }
     }
-    stage('WarFile'){
+    stage('String'){
        steps{
         script{
-          buildwar()
+          stringExample()
         }
       }
     }
