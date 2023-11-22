@@ -24,5 +24,12 @@ agent any
         }
       }
     }
+    stage('Log'){
+      steps{
+        script{
+          log()
+        }
+      }
+    }
   }
 }
