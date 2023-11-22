@@ -24,10 +24,10 @@ agent any
         }
       }
     }
-    stage('Final'){
+    stage('WarFile'){
        steps{
         script{
-          finalcheck()
+          buildwar()
         }
       }
     }
