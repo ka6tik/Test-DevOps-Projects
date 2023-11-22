@@ -10,6 +10,13 @@ agent any
         }
       }
     }
+    stage('MS Build'){
+      steps{
+        script{
+          msbuild()
+        }
+      }
+    }
     stage('Scan'){
       steps{
         script{
