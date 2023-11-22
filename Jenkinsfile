@@ -24,12 +24,5 @@ agent any
         }
       }
     }
-    stage('String'){
-       steps{
-        script{
-          string-example()
-        }
-      }
-    }
   }
 }
